@@ -1,0 +1,22 @@
+body {
+    margin:0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 7vh);
+    grid-auto-rows: 7vh;
+    gap: 3px;
+}
+
+#wrapper div {
+    background-color: pink;
+    width: 7vh;
+    height: 7vh;
+    font-size: 4vh;
+}
