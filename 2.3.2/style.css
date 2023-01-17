@@ -1,0 +1,26 @@
+
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+
+}
+
+.number_class {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17vh;
+    width: 17vh;
+    font-size: 5vh;
+}
