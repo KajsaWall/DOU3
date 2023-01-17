@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vh;
+}
+
+body > div {
+    display: grid;
+    grid-template-columns: repeat(5, 10vh);
+    grid-template-rows: repeat(4, 15vh);
+    gap: 3px;
+}
+
+body > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    background-size: cover;
+    background-position: center;
+    flex-basis: 80%;
+}
+
+.name {
+    text-align: center;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
