@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5vh;
+}
+
+body > div {
+  --dims: 7vh;
+  /* height: 50vw; */
+  /* height: 50vh; */
+
+  display: grid;
+  grid-template-columns: repeat(9, var(--dims));
+  grid-auto-rows: var(--dims);
+  gap: 3px;
+
+}
+
+body > div > div {
+
+  text-align: right;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
