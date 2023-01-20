@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 30vh;
+}
+
+button {
+  font-size: 6vh;
+}
