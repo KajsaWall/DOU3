@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.showdiv {
+    background-color: lightgrey;
+    width: 80vw;
+    flex-basis: 8vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
