@@ -22,6 +22,47 @@ Det är ett objekt där varje nyckel representerar en färg och där värdet
 av nyckeln är hur många gånger vi har fått den färgen 
 
 */
+const rqst = new Request ("https://maumt.se/dbp/dbp22/chunks_material/resources/color_distribution.php");
+let button = document.querySelector("body > button");
+button.addEventListener("click", get_one_color);
+let color_counter = 0;
+
+let color_distribution = {};
+
+function get_one_color(event) {
+  document.querySelector(".feedback").textContent = "Receving resources...";
+  color_counter=0;
+  color_distribution = {};
+  for(let i = 0; i < 50; i++) {
+    fetch(rqst)
+      .then(r => r.text())
+      .then(color_arrived);
+  }
+}
+
+function color_arrived(color) {
+  document.querySelector(".distribution").innerHTML = "";
+  if(color_distribution[color] === undefined) {
+    color_distribution[color] = 0;
+  }
+
+
+  color_counter++;
+  if (color_counter === 50) {
+    document.querySelector(".feedback").textContent = "Done."
+  }
+
+  color_distribution[color]++;
+  for (const color_name in color_distribution) {
+    const dom = document.createElement("div");
+    //dom.setAttribute("style", `background-color:${color}`);
+    dom.style.backgroundColor = color_name;
+    dom.style.flexGrow = color_distribution[color_name];
+    dom.textContent = color_distribution[color_name];
+    document.querySelector(".distribution").append(dom);
+  }
+}
+
 
 
 
