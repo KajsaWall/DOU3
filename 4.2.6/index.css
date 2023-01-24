@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+
+body > *:not(script) {
+  background-color: lightgrey;
+  width: 80vw;
+  flex-basis: 8vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+
+}
+
+#user_input * {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vh;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightseagreen;
+}
+
+#showdiv1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3vh;
+}
+
