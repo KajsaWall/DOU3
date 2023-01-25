@@ -46,7 +46,6 @@ function color_arrived(color) {
     color_distribution[color] = 0;
   }
 
-
   color_counter++;
   if (color_counter === 50) {
     document.querySelector(".feedback").textContent = "Done."
@@ -62,7 +61,6 @@ function color_arrived(color) {
     document.querySelector(".distribution").append(dom);
   }
 }
-
 
 
 
