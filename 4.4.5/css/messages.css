@@ -1,0 +1,87 @@
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+
+.message_folder {
+  flex-basis: 0;
+  flex-grow: 1;
+
+  padding: 2vh;
+  background-color: lightseagreen;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.message_folder > ul {
+  flex-grow: 1;
+  overflow-y: scroll;
+  background-color: rgba(255,255,255,.2);
+  padding: 1vh 0;
+}
+
+
+
+
+.message {
+  --border_radius: 1vh;
+  background-color: rgba(0,0,0,.2);
+  border-radius: var(--border_radius);
+  padding: 1vh;
+  margin: 1vh;
+  color: #eee;
+
+  display: flex;
+}
+
+.message .date_to_from {
+  display: flex;
+  padding: .2vh 0;
+  background-color: rgba(0,0,0,.07);
+}
+.message .date_to_from > * {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: .5vh;
+}
+
+.message .content {
+  padding: 1vh 0;
+}
+
+.message.deleting {
+  transition: opacity 1s;
+  opacity: 0;
+}
+.message > .delete:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.message > .delete:active {
+  cursor: pointer;
+}
+.message > img {
+  object-fit: contain;
+}
+.message > .delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255, .6);
+
+  border: none;
+  border-top-right-radius: var(--border_radius);
+  border-bottom-right-radius: var(--border_radius);
+}
+.message > .payload {
+  flex-grow: 1;
+}

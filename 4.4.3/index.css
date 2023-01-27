@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#send_form .feedback.error {
+    background-color: lightcoral;
+}
+
+#send_form .feedback::before {
+    content: "( ";
+}
+
+#send_form .feedback::after {
+    content: " )";
+}
