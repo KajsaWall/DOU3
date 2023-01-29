@@ -9,10 +9,12 @@ https://teaching.maumt.se/apis/random_number/
 och sedan hämtar exakt X users från randomuser.me
 
 */
-fetch("https://teaching.maumt.se/apis/random_number/")
+const random_number_request = new Request("https://teaching.maumt.se/apis/random_number/");
+fetch(random_number_request)
     .then(r => r.json())
     .then(resource => {
-        fetch(`https://randomuser.me/api/?results=${resource}`)
+        const random_color_request = new Request (`https://randomuser.me/api/?results=${resource}`);
+        fetch(random_color_request)
             .then(r => r.json())
             .then(res => console.log(res.results));
     });
