@@ -1,0 +1,43 @@
+
+
+/*
+
+BRA ÖVNING: Fixa CSS på egen hand
+Annars finns min lösning i _index.css
+
+*/
+
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers {
+    display: flex;
+    gap: 2vw;
+
+}
+
+#numbers div {
+    border: 1px black solid;
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+#sum {
+    border: 1px black solid;
+    width: 62vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    margin-top: 6vh;
+}
