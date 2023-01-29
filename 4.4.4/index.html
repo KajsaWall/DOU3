@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="messages.css">
+  <link rel="stylesheet" href="send.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <div id="send_form">
+    <div>
+      <label for="receiver">TO:</label>
+      <input id="receiver" name="receiver" type="text">
+    </div>
+    <div>
+      <label for="content">MESSAGE:</label>
+      <input id="content" name="content" type="text">
+    </div>
+    <button>SEND</button>
+    <div class="feedback">Idle</div>
+  </div>
+
+  <div id="messages">
+    <div id="to_me" class="message_folder">
+      <div>MESSAGES TO ME</div>
+      <ul></ul>
+    </div>
+    <div id="from_me" class="message_folder">
+      <div>MESSAGES FROM ME</div>
+      <ul></ul>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="send.js"></script>
+  <script src="get.js"></script>
+  
+</body>
+</html>

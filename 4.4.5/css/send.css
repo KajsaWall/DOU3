@@ -1,0 +1,10 @@
+
+#send_form input[name='content'] {
+  width: 30vw;
+}
+
+#send_form .feedback.error {
+  background-color: lightcoral;
+}
+#send_form .feedback::before { content: "( "; }
+#send_form .feedback::after { content: " )"; }
