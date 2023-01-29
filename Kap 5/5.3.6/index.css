@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 62vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+#numbers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2vw;
+  flex-basis: 30vh;
+}
+
+#numbers > div {
+  border: 1px solid grey;
+  flex-basis: 30vw;
+  font-size: 8vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sum {
+  border: 1px solid grey;
+  font-size: 12vh;
+  flex-basis: 30vh;
+  width: 62vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 8vh;
+}
