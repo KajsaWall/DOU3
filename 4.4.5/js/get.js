@@ -29,10 +29,11 @@ function add_message (message, container_id) {
           <span>${message.receiver}</span>
         </div>    
       </div>
-      <div class="content">${message.content}</div>
+      <div class="content"></div>
     </div>
     <img src="images/icon_delete.png" class="delete">
   `;
+  message_dom.querySelector(".content").textContent = message.content;
   message_dom.querySelector("img.delete").addEventListener("click", () => remove_message(message, message_dom));
 }
 
