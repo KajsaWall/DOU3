@@ -6,8 +6,8 @@ let counter = 0;
         document.querySelector("#number1").textContent = "...";
         document.querySelector("#number2").textContent = "...";
         document.querySelector("#sum").textContent = "waiting";
-document.querySelector("button").addEventListener("click", activate)
-
+        document.querySelector("button").addEventListener("click", activate)
+/*
 
 function activate (event) {
 counter = 0;
@@ -34,8 +34,38 @@ fetch(random_number_request)
         };
     });
 }
-
+*/
 
 function sum_function(){
-    document.querySelector("#sum").textContent=parseInt(document.querySelector("#number1").textContent) + parseInt(document.querySelector("#number2").textContent);
+let n1 = document.querySelector("#number1").textContent;
+n1 = parseInt(n1);
+let n2 = document.querySelector("#number2").textContent;
+n2 = parseInt(n2);
+let sum = n1 + n2;
+document.querySelector("#sum").textContent = sum;
+}
+
+//
+
+
+function activate (event) {
+
+const fetch_number1 = fetch(random_number_request)
+                        .then(r => r.text())
+                        .then(resource => {
+                        document.querySelector("#number1").textContent = resource;})
+const fetch_number2 = fetch(random_number_request)
+                        .then(r => r.text())
+                        .then(resource => {
+                        document.querySelector("#number2").textContent = resource;})
+
+
+let PromiseArray = [fetch_number1, fetch_number2];
+
+
+
+Promise.all(PromiseArray)
+    .then(result => {sum_function()})
+    .catch(error => {console.log("NO AN ERROR!")});
+
 }
