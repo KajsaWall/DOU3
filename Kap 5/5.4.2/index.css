@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+#wrapper {
+  box-sizing: border-box;
+    padding: 1vh;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 1vh;
+}
+
+#button_start {
+  grid-area: 6 / 6;
+}
+#button_start:disabled {
+  opacity: .3;
+  cursor: default;
+}
