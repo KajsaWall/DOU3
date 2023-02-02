@@ -13,7 +13,13 @@ body {
 }
 
 #button_start {
+<<<<<<< Updated upstream:Kap 5/5.4.2/index.css
   grid-area: 6 / 6;
+=======
+  cursor: pointer;
+  grid-column: 6;
+  grid-row: 6;
+>>>>>>> Stashed changes:Kap 5/5.4.6/index.css
 }
 #button_start:disabled {
   opacity: .3;

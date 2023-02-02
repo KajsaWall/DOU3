@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+#wrapper {
+  height: 100vh;
+  display: grid;
+  gap: 1vh;
+}
+
+#button_start {
+  cursor: pointer;
+
+}
+
+#button_start:disabled {
+  opacity: .3;
+  cursor: default;
+}
