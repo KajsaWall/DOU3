@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #wrapper {
+    --dims: 30vh;
+    width: 100%;
+    height: var(--dims);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  #wrapper div {
+    cursor: pointer;
+    flex-basis: var(--dims);
+    height: var(--dims);
+    transition: height .25s;
+    border: 1px solid grey;
+  }
+  
+  #wrapper div:hover {
+    box-shadow: 0 0 4px black;
+  }
+  
+  #wrapper div.fetching {
+    height: 0;
+  }
