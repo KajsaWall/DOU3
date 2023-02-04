@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+#wrapper {
+  box-sizing: border-box;
+  padding: 1vh;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 1vh;
+}
