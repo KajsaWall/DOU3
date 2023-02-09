@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: "BLWC";
+  src: url("./BarlowCondensed-Light.ttf");
+}
+
+body {
+  font-family: "BLWC", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  --dims: 60vh;
+  height: var(--dims);
+  width: var(--dims);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.group {
+  position: relative;  
+}
+
+.group .colors {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.group .score {
+  font-size: 12vh;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
