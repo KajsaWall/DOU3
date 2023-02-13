@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "BLWC";
+    src: url("./BarlowCondensed-Light.ttf");
+  }
+  
+  * {
+    font-family: "BLWC", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #wrapper {
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 1vh;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-rows: 50px; */
+    gap: 1vh;
+  }
+  
+  .entry {
+    padding: 1vw;
+    background-color: lightgrey;
+    border-radius: 1vh;
+    display: flex;
+    gap: 1vw;
+  }
+  .entry > * {
+    padding: .5vh;
+    flex-shrink: 0;
+    flex-basis: 0;
+  }
+  
+  .entry .title { flex-basis: 15%; }
+  .entry .description { flex-grow: 1; }
+  .entry .auth { flex-basis: 10%; }
+  .entry .category { flex-basis: 15%; }
+  
+  .entry .description { background-color: white; }
