@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "BLWC";
+  src: url("./BarlowCondensed-Light.ttf");
+}
+
+* {
+  font-size: 4vh;
+  font-family: "BLWC", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(./back_image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#cards {
+  width: 70vw;
+  height: 50vh;
+  margin: 0 auto;
+  padding: 2vw;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1vw;
+  
+}
+
+#cards > div {
+  background-color: rgba(255,255,255,.88);
+  border: 1px solid black;
+  border-radius: 1vh;
+  box-shadow: 0 0 .5vh black;
+  padding: .5vw .5vw;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: .5vw;
+}
+
+#cards > div > div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0,0,0,.3);
+  border-radius: 1vh;
+}
