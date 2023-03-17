@@ -5,12 +5,14 @@ function statistics (people) {
   const country_counters = [];
   people.forEach(person => {
     if (!country_counters.find(cc => cc.country === person.location.country)) {
+      //om cc.country inte kan hittas i arrayen counttry_counters så ska detta hända
       country_counters.push({
         counter: 0,
         country: person.location.country
       });
     }
-    country_counters.find(cc => cc.country === person.location.country).counter++;
+    country_counters
+      .find(cc => cc.country === person.location.country).counter++;
   });
 
   return country_counters;
@@ -21,8 +23,9 @@ function two_decimals (number) {
 }
 
 function vizualise (distribution, n_people) {
-
+  console.log(distribution);
   const main_dom = document.querySelector("main");
+  console.log(main_dom);
   const is_first = main_dom.childNodes.length === 0;
 
   const column_dom = document.createElement("ul");
@@ -54,5 +57,4 @@ function vizualise (distribution, n_people) {
 
     column_dom.innerHTML += `<li>${Math.round(sum)}</li>`;
   }
-
 }
