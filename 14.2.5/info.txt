@@ -1,0 +1,9 @@
+Följande saker förhåller jag mig till:
+
+- Det går inte att lägga till mer än 100 poäng (ett meddelande dyker upp)
+- Om poängen överstiger 100 återställs det till 0 (med ett meddelande)
+- Om poängen är 90 eller mer kommer ett meddelande, om poängen är exakt 100
+  kommer ett annat meddelande.
+
+Jag sparade antal poäng i en JSON-fil som { "points": 0 } (men ni får spara det
+hur ni vill), formuläret skickar poängen med POST till samma sida (index.php).
