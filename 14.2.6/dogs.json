@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Mushi",
+        "breed": "Shiba Inu",
+        "age": 1,
+        "food": "Mackor"
+    },
+    {
+        "name": "Yoshi",
+        "breed": "Husky",
+        "age": 1,
+        "food": "Bones"
+    }
+]
