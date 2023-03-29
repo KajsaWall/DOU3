@@ -1,0 +1,11 @@
+För varje bild som laddas upp så läggs upp ett objekt som har nyckeln source eller path alltså sökvägen!
+Filuppladdningen görs med JS.
+
+Gallery.php
+En foreach php loop som går genom json och skriver ut bild taggarna
+
+Index.php
+All html och js 
+
+receiver.php
+Här behandlas bilderna?
