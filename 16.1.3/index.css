@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+}
+
+button {
+    font-size: 35px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+div {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.result {
+    background-color: pink;
+}
