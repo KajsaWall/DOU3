@@ -1,0 +1,142 @@
+{
+    "Afghan Hound": {
+        "name": "Afghan Hound",
+        "source": "images\/Afghan_Hound.jpg"
+    },
+    "Australian Shepherd": {
+        "name": "Australian Shepherd",
+        "source": "images\/Australian_Shepherd.jpg"
+    },
+    "Beagle": {
+        "name": "Beagle",
+        "source": "images\/Beagle.jpg"
+    },
+    "Bearded Collie": {
+        "name": "Bearded Collie",
+        "source": "images\/Bearded_Collie.jpg"
+    },
+    "Belgian Malinois": {
+        "name": "Belgian Malinois",
+        "source": "images\/Belgian_Malinois.jpg"
+    },
+    "Bichon Frise": {
+        "name": "Bichon Frise",
+        "source": "images\/Bichon_Frise.jpg"
+    },
+    "Bloodhound": {
+        "name": "Bloodhound",
+        "source": "images\/Bloodhound.jpg"
+    },
+    "Border Collie": {
+        "name": "Border Collie",
+        "source": "images\/Border_Collie.jpg"
+    },
+    "Boston Terrier": {
+        "name": "Boston Terrier",
+        "source": "images\/Boston_Terrier.jpg"
+    },
+    "Boxer": {
+        "name": "Boxer",
+        "source": "images\/Boxer.jpg"
+    },
+    "Bulldog": {
+        "name": "Bulldog",
+        "source": "images\/Bulldog.jpg"
+    },
+    "Cane Corso": {
+        "name": "Cane Corso",
+        "source": "images\/Cane_Corso.jpg"
+    },
+    "Chihuahua": {
+        "name": "Chihuahua",
+        "source": "images\/Chihuahua.jpg"
+    },
+    "Collie": {
+        "name": "Collie",
+        "source": "images\/Collie.jpg"
+    },
+    "French Bulldog": {
+        "name": "French Bulldog",
+        "source": "images\/French_Bulldog.jpg"
+    },
+    "German Shepherd": {
+        "name": "German Shepherd",
+        "source": "images\/German_Shepherd.jpg"
+    },
+    "Giant Schnauzer": {
+        "name": "Giant Schnauzer",
+        "source": "images\/Giant_Schnauzer.jpg"
+    },
+    "Golden Retriver": {
+        "name": "Golden Retriver",
+        "source": "images\/Golden_Retriver.jpg"
+    },
+    "Greyhound": {
+        "name": "Greyhound",
+        "source": "images\/Greyhound.jpg"
+    },
+    "Jack Russell Terrier": {
+        "name": "Jack Russell Terrier",
+        "source": "images\/Jack_Russell_Terrier.jpg"
+    },
+    "Labrador Retriever": {
+        "name": "Labrador Retriever",
+        "source": "images\/Labrador_Retriever.jpg"
+    },
+    "Leonberger": {
+        "name": "Leonberger",
+        "source": "images\/Leonberger.jpg"
+    },
+    "Miniature Schnauzer": {
+        "name": "Miniature Schnauzer",
+        "source": "images\/Miniature_Schnauzer.jpg"
+    },
+    "Pembroke Welsh Corgi": {
+        "name": "Pembroke Welsh Corgi",
+        "source": "images\/Pembroke_Welsh_Corgi.jpg"
+    },
+    "Pomeranian": {
+        "name": "Pomeranian",
+        "source": "images\/Pomeranian.jpg"
+    },
+    "Portuguese Water": {
+        "name": "Portuguese Water",
+        "source": "images\/Portuguese_Water.jpg"
+    },
+    "Pug": {
+        "name": "Pug",
+        "source": "images\/Pug.jpg"
+    },
+    "Rhodesian Ridgeback": {
+        "name": "Rhodesian Ridgeback",
+        "source": "images\/Rhodesian_Ridgeback.jpg"
+    },
+    "Rottweiler": {
+        "name": "Rottweiler",
+        "source": "images\/Rottweiler.jpg"
+    },
+    "Saluki": {
+        "name": "Saluki",
+        "source": "images\/Saluki.jpg"
+    },
+    "Shetland Sheepdog": {
+        "name": "Shetland Sheepdog",
+        "source": "images\/Shetland_Sheepdog.jpg"
+    },
+    "Siberian Husky": {
+        "name": "Siberian Husky",
+        "source": "images\/Siberian_Husky.jpg"
+    },
+    "Staffordshire Bull Terrier": {
+        "name": "Staffordshire Bull Terrier",
+        "source": "images\/Staffordshire_Bull_Terrier.jpg"
+    },
+    "Tibetan Mastiff": {
+        "name": "Tibetan Mastiff",
+        "source": "images\/Tibetan_Mastiff.jpg"
+    },
+    "Yorkshire Terrier": {
+        "name": "Yorkshire Terrier",
+        "source": "images\/Yorkshire_Terrier.jpg"
+    }
+}
